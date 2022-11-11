@@ -45,6 +45,11 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
+.hero-banner {
+  background-image: url("../images/pexels-fwstudio-164005.jpg");
+  height: 100px;
+  background-size: 100%;
+}
 
 h1,
 h2,
