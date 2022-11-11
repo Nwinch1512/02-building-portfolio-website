@@ -68,23 +68,30 @@ h2 {
   font-size: 1rem;
 }
 
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 #about div {
   display: flex;
-}
-
-#about h2,
-p {
-  float: left;
   padding: 10px;
 }
 
-#about img {
-  width: 10%;
-  height: 10%;
-  float: right;
+#about div img {
+  max-width: 400px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
   margin-right: 50px;
-  /* align-items: flex-start; */
   padding: 10px;
 }
+/* 
+#work {
+}
+
+#work-container {
+  display: flex;
+} */
 
 /*Add media queries here*/
