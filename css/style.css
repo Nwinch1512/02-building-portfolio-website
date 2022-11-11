@@ -9,11 +9,6 @@ body {
     "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
 }
-/* 
-header nav {
-  float: right;
-  padding: 10px;
-} */
 
 header {
   padding: 20px;
@@ -66,6 +61,7 @@ p {
 
 h2 {
   font-size: 1rem;
+  width: 100px;
 }
 
 .page-wrapper {
@@ -90,10 +86,41 @@ h2 {
 }
 
 #work {
+  display: flex;
 }
 
-#work-container {
+#portfolio {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#horiseon-webpage {
+  width: 100%;
+  background-image: url("../images/pexels-fauxels-3184436.jpg");
+  height: 150px;
+  background-size: 100%;
+}
+/*Look at setting width to take into account heading width e.g. use fr if possible.  Ensure images display correctly*/
+#pre-work-study-guide-webpage,
+#recession-monitoring-atlas,
+#labour-market-skills-profiles,
+#measuring-carbon-gap {
+  width: 50%;
+  height: 250px;
+}
+
+#pre-work-study-guide-webpage {
+  background-image: url("../images/pexels-pixabay-301920.jpg");
+}
+#recession-monitoring-atlas {
+  background-image: url("../images/pexels-oleksandr-pidvalnyi-12955818.jpg");
+}
+#labour-market-skills-profiles {
+  background-image: url("../images/pexels-photo-5598301.jpeg");
+}
+#measuring-carbon-gap {
+  background-image: url("../images/pexels-guillaume-falco-2229887.jpg");
 }
 
 #contact ul {
