@@ -41,7 +41,7 @@ header nav ul li {
   color: white;
 }
 
-a {
+header a {
   color: #ffffff;
   text-decoration: none;
 }
@@ -73,7 +73,9 @@ h2 {
   flex-direction: column;
 }
 
-#about div {
+#about div,
+#work div,
+#contact {
   display: flex;
   padding: 10px;
 }
@@ -86,12 +88,26 @@ h2 {
   margin-right: 50px;
   padding: 10px;
 }
-/* 
+
 #work {
 }
 
 #work-container {
   display: flex;
-} */
+}
+
+#contact ul {
+  list-style-type: none;
+}
+
+#contact ul li {
+  display: inline;
+  padding: 10px;
+  color: black;
+}
+
+#contact a {
+  text-decoration: none;
+}
 
 /*Add media queries here*/
