@@ -57,11 +57,17 @@ h6 {
 
 p {
   margin: 0;
+  padding: 10px;
 }
 
 h2 {
   font-size: 1rem;
   width: 100px;
+  padding: 10px;
+}
+
+h3 {
+  padding: 10px;
 }
 
 .page-wrapper {
@@ -69,14 +75,14 @@ h2 {
   flex-direction: column;
 }
 
-#about div,
-#work div,
+#about,
+#work,
 #contact {
-  display: flex;
   padding: 10px;
+  display: flex;
 }
 
-#about div img {
+#about img {
   max-width: 400px;
   max-height: 200px;
   width: auto;
@@ -86,7 +92,7 @@ h2 {
 }
 
 #work {
-  display: flex;
+  /* display: flex; */
 }
 
 #portfolio {
@@ -100,14 +106,16 @@ h2 {
   background-image: url("../images/pexels-fauxels-3184436.jpg");
   height: 150px;
   background-size: 100%;
+  margin: 10px;
 }
 /*Look at setting width to take into account heading width e.g. use fr if possible.  Ensure images display correctly*/
 #pre-work-study-guide-webpage,
 #recession-monitoring-atlas,
 #labour-market-skills-profiles,
 #measuring-carbon-gap {
-  width: 50%;
+  width: 45%;
   height: 250px;
+  margin: 10px;
 }
 
 #pre-work-study-guide-webpage {
@@ -128,6 +136,7 @@ h2 {
 }
 
 #contact ul li {
+  display: flex;
   display: inline;
   padding: 10px;
   color: black;
