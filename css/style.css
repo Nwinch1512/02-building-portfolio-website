@@ -11,19 +11,24 @@ body {
 }
 
 header {
-  background-color: #1b3b3d59;
+  background-color: #01030359;
   color: #ffffff;
 }
 
 .portfolio-header {
-  padding: 0.5em 1em;
+  /* padding: 0.5em 1em; */
+  padding: 15px;
   display: flex;
-  justify-content: space-between;
+}
+
+.portfolio-navigation {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .name h1 {
-  font-size: 1.5em;
-  margin: 0.6em 0;
+  font-size: 20px;
+  margin: 10px 0;
   display: inline-block;
   text-align: left;
 }
@@ -33,11 +38,13 @@ header {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  justify-content: flex-end;
 }
 
 .portfolio-navigation li {
   display: inline-block;
-  margin: 1.4em 1em 1em 1em;
+  margin: 20px;
+  font-size: 20px;
 }
 
 header a {
@@ -82,6 +89,11 @@ header a {
   background-size: 100%;
 }
 
+.hero-banner h2 {
+  padding: 20px;
+  text-align: center;
+}
+
 h1,
 h2,
 h3,
@@ -96,9 +108,11 @@ p {
   padding: 10px;
 }
 
-h2 {
+#about h2,
+#work h2,
+#contact h2 {
   font-size: 1rem;
-  width: 100px;
+  width: 150px;
   padding: 10px;
 }
 
@@ -109,6 +123,8 @@ h3 {
 .page-wrapper {
   display: flex;
   flex-direction: column;
+  align-items: flext-start;
+  overflow-y: scroll;
 }
 
 #about,
@@ -128,26 +144,37 @@ h3 {
 }
 
 #portfolio {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
+#portfolio a {
+  text-decoration: none;
+  color: #fff;
+}
+
 #horiseon-webpage {
-  width: 100%;
+  width: 2200px;
   background-image: url("../images/pexels-fauxels-3184436.jpg");
-  height: 150px;
+  height: 500px;
   background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
   margin: 10px;
 }
 /*Look at setting width to take into account heading width e.g. use fr if possible.  Ensure images display correctly*/
 #pre-work-study-guide-webpage,
 #recession-monitoring-atlas,
-#labour-market-skills-profiles,
+#state-of-the-countryside-report,
 #measuring-carbon-gap {
-  width: 45%;
-  height: 250px;
+  width: 750px;
+  height: 350px;
   margin: 10px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #pre-work-study-guide-webpage {
@@ -156,11 +183,14 @@ h3 {
 #recession-monitoring-atlas {
   background-image: url("../images/pexels-oleksandr-pidvalnyi-12955818.jpg");
 }
-#labour-market-skills-profiles {
-  background-image: url("../images/pexels-photo-5598301.jpeg");
+#state-of-the-countryside-report {
+  background-image: url("../images/pexels-pixabay-67211.jpg");
 }
 #measuring-carbon-gap {
   background-image: url("../images/pexels-guillaume-falco-2229887.jpg");
+}
+
+#contact-methods {
 }
 
 #contact ul {
