@@ -8,19 +8,145 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
+  color: rgb(82, 82, 82);
 }
 
 header {
   background-color: #01030359;
   color: #ffffff;
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-header h1 {
-  align-content: flex-start;
+header ul {
+  padding-inline-start: 0;
 }
 
-header nav {
-  align-content: flex-end;
+header li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header h2 {
+  width: 100%;
+  background-image: url("../images/pexels-fwstudio-164005.jpg");
+  background-size: 100% auto;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+
+@media (min-width: 600px) {
+  header {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  header h1 {
+    width: 50%;
+    padding-left: 10px;
+  }
+
+  header nav {
+    width: 50%;
+    text-align: right;
+  }
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about img {
+  max-height: 120px;
+}
+
+@media (min-width: 600px) {
+  #about {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  #about h2 {
+    flex: 0 0 150px;
+  }
+}
+
+#work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 600px) {
+  #work {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  #work h2 {
+    flex: 0 0 150px;
+  }
+}
+
+#portfolio {
+  display: flex;
+  flex-direction: column;
+}
+
+#horiseon-webpage {
+  background-image: url("../images/pexels-fauxels-3184436.jpg");
+  background-size: 100% auto;
+  width: 100%;
+  height: 35vh;
+}
+
+#pre-work-study-guide-webpage,
+#recession-monitoring-atlas,
+#state-of-the-countryside-report,
+#measuring-carbon-gap {
+  background-size: 100% auto;
+  width: 100%;
+  height: 25vh;
+}
+
+#measuring-carbon-gap {
+  color: rgb(82, 82, 82);
+}
+
+#pre-work-study-guide-webpage {
+  background-image: url("../images/pexels-pixabay-301920.jpg");
+}
+#recession-monitoring-atlas {
+  background-image: url("../images/pexels-oleksandr-pidvalnyi-12955818.jpg");
+}
+#state-of-the-countryside-report {
+  background-image: url("../images/pexels-pixabay-67211.jpg");
+}
+#measuring-carbon-gap {
+  background-image: url("../images/pexels-guillaume-falco-2229887.jpg");
+}
+
+@media (min-width: 600px) {
+  #portfolio {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #pre-work-study-guide-webpage,
+  #recession-monitoring-atlas,
+  #state-of-the-countryside-report,
+  #measuring-carbon-gap {
+    width: 50%;
+  }
 }
