@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #01030359;
+  color: #ffffff;
+  display: flex;
+  flex-flow: column;
+}
+
+header h1 {
+  align-content: flex-start;
+}
+
+header nav {
+  align-content: flex-end;
+}
