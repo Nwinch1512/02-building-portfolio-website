@@ -53,22 +53,16 @@ header h2 {
   padding: 20px 0;
 }
 
-@media (min-width: 600px) {
-  header {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  header h1 {
-    width: 50%;
-    padding-left: 10px;
-  }
-
-  header nav {
-    width: 50%;
-    text-align: right;
-  }
+header h1 {
+  width: 50%;
+  padding-left: 10px;
 }
+
+header nav {
+  width: 50%;
+  text-align: right;
+}
+
 .page-wrapper {
   background-color: #3e5f6159;
 }
@@ -93,19 +87,6 @@ header h2 {
   margin: 10px;
 }
 
-@media (min-width: 600px) {
-  #about {
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: flex-start;
-  }
-
-  #about h2 {
-    flex: 0 0 150px;
-    border-right: solid rgb(82, 82, 82);
-  }
-}
-
 #work {
   display: flex;
   flex-direction: column;
@@ -114,18 +95,6 @@ header h2 {
 
 #work h2 {
   padding-left: 10px;
-}
-
-@media (min-width: 600px) {
-  #work {
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-
-  #work h2 {
-    flex: 0 0 150px;
-    border-right: solid rgb(82, 82, 82);
-  }
 }
 
 #portfolio {
@@ -177,20 +146,6 @@ header h2 {
   background-image: url("../images/pexels-guillaume-falco-2229887.jpg");
 }
 
-@media (min-width: 600px) {
-  #portfolio {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  #pre-work-study-guide-webpage,
-  #recession-monitoring-atlas,
-  #state-of-the-countryside-report,
-  #measuring-carbon-gap {
-    width: 48%;
-  }
-}
-
 #contact {
   background-color: rgb(82, 82, 82);
   color: #fff;
@@ -211,4 +166,50 @@ header h2 {
   text-decoration: none;
   padding: 0 50px;
   color: #fff;
+}
+
+@media (min-width: 600px) {
+  header {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 600px) {
+  #about {
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+  }
+
+  #about h2 {
+    flex: 0 0 150px;
+    border-right: solid rgb(82, 82, 82);
+  }
+}
+
+@media (min-width: 600px) {
+  #work {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  #work h2 {
+    flex: 0 0 150px;
+    border-right: solid rgb(82, 82, 82);
+  }
+}
+
+@media (min-width: 600px) {
+  #portfolio {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #pre-work-study-guide-webpage,
+  #recession-monitoring-atlas,
+  #state-of-the-countryside-report,
+  #measuring-carbon-gap {
+    width: 48%;
+  }
 }
