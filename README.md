@@ -11,15 +11,17 @@ N/A
 ## Usage
 
 This website has been set up to showcase my portfolio as it develops over time. This would be useful for potential employers or anyone interested in learning more about my experience. The website has been developed to display accurately on mobile phones and desktops. Please see below for a screenshot of my wire frame.
-![Porfolio webpage wireframe](Wireframe-portfolio-page.png)
+![Porfolio webpage wireframe](Wireframe-portfolio-page.jpeg)
 
 Please see below for a screenshot of the website in desktop view.
 ![Porfolio webpage desktop view](Portfolio-webpage-desktop-view.jpeg)
 
 Please see below for a screenshot of the website in mobile view.
-![Porfolio webpage mobile view](Portfolio-webpage-mobile-view.png)
+![Porfolio webpage mobile view](Portfolio-webpage-mobile-view.jpeg)
 
 Please refer to the link below to access the webpage.
+
+[Portfolio website](https://nwinch1512.github.io/02-building-portfolio-website/ "Visit Naomi Winchurch portfolio website")
 
 ## License
 
